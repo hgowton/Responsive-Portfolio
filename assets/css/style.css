@@ -241,6 +241,7 @@ input[type=submit] {
 #masthead {
   position: static;
   width: 100%;
+  margin: auto;
 }
 
 #logo {
@@ -255,7 +256,9 @@ nav {
 }
 
 /* main */
-
+h1 {
+  margin: 0px 0px 15px;
+}
 .container {
   max-width: 600px;
 }
@@ -266,16 +269,17 @@ nav {
 }
 
 .auth-image {
-  width: 350px;
+  width: 330px;
   height: auto;
-  margin: 15px 0px 10px 50px;
+  margin: 0px 90px 10px 90px;
 }
 
 
 .main-section {
   float: none;
   max-width: 600px;
-  margin: 0px;
+  padding: 15px;
+  margin-top: 10px;
 }
 
 /* portfolio page */
