@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/spikes.png");
+  margin: 0px;
 }
 
 * {
@@ -236,7 +237,6 @@ input[type=submit] {
 /* CODE for media query with MAX WIDTH 640px */
 @media screen and (max-width: 640px){
 
-
 /* header */
 #masthead {
   position: static;
@@ -255,14 +255,27 @@ nav {
 }
 
 /* main */
+
+.container {
+  max-width: 600px;
+}
+
 #main-container {
   padding-top: 5px;
+  margin: auto;
 }
 
 .auth-image {
   width: 350px;
   height: auto;
   margin: 15px 0px 10px 50px;
+}
+
+
+.main-section {
+  float: none;
+  max-width: 600px;
+  margin: 0px;
 }
 
 /* portfolio page */
