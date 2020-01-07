@@ -234,6 +234,65 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* CODE for media query with MAX WIDTH 980px */
+@media screen and (max-width: 980px){
+
+  /* header */
+  #masthead {
+    position: static;
+    width: 100%;
+    margin: auto;
+    height: 60px;
+  }
+  
+  #logo {
+    margin: -10px 0 10px;
+  }
+  
+  nav {
+    float: none;
+    text-align: center;
+    margin: 10px -320px 10px;
+  }
+  
+  /* main */
+  h1 {
+    margin: 0px 0px 5px;
+    padding-bottom: 10px;
+  }
+  .container {
+    max-width: 930px;
+  }
+  
+  #main-container {
+    padding-top: 5px;
+    margin: auto;
+  }
+  
+  .auth-image {
+    width: 340px;
+    height: auto;
+  }
+  
+  .main-section {
+    float: none;
+    max-width: 930px;
+    padding: 15px;
+    margin: 25px 0px 25px 0px;
+  }
+  
+  /* portfolio page */
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 20px 25px;
+    overflow: auto;
+  }
+
+  } 
+  /* Max Width 980 End code */
+
 /* CODE for media query with MAX WIDTH 768px */
 @media screen and (max-width: 768px){
 
@@ -283,12 +342,13 @@ input[type=submit] {
   
   /* portfolio page */
   .work {
-    /* position: relative; */
-    float: none;
-    width: 400px;
-    margin: 0px 65px 10px 65px;
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 20px 25px;
     overflow: auto;
   }
+
   } 
   /* Max Width 768 End code */
 
