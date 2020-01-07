@@ -242,17 +242,17 @@ input[type=submit] {
     position: static;
     width: 100%;
     margin: auto;
-    height: 60px;
+    height: 62px;
   }
   
   #logo {
-    margin: -10px 0 10px;
+    margin: -10px 0 0px;
   }
   
   nav {
     float: none;
     text-align: center;
-    margin: 10px -320px 10px;
+    margin: 10px 0px 10px 30px;
   }
   
   /* main */
@@ -262,65 +262,6 @@ input[type=submit] {
   }
   .container {
     max-width: 930px;
-  }
-  
-  #main-container {
-    padding-top: 5px;
-    margin: auto;
-  }
-  
-  .auth-image {
-    width: 340px;
-    height: auto;
-  }
-  
-  .main-section {
-    float: none;
-    max-width: 930px;
-    padding: 15px;
-    margin: 25px 0px 25px 0px;
-  }
-  
-  /* portfolio page */
-  .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 20px 25px;
-    overflow: auto;
-  }
-
-  } 
-  /* Max Width 980 End code */
-
-/* CODE for media query with MAX WIDTH 768px */
-@media screen and (max-width: 768px){
-
-  /* header */
-  #masthead {
-    position: static;
-    width: 100%;
-    margin: auto;
-    height: 60px;
-  }
-  
-  #logo {
-    margin: -10px 0 10px;
-  }
-  
-  nav {
-    float: none;
-    text-align: center;
-    margin: 10px -140px 10px;
-  }
-  
-  /* main */
-  h1 {
-    margin: 0px 0px 5px;
-    padding-bottom: 10px;
-  }
-  .container {
-    max-width: 730px;
   }
   
   #main-container {
@@ -337,7 +278,7 @@ input[type=submit] {
     float: none;
     max-width: 700px;
     padding: 15px;
-    margin: 10px 15px 20px;
+    margin: 25px 0px 25px 30px;
   }
   
   /* portfolio page */
@@ -346,9 +287,32 @@ input[type=submit] {
     float: left;
     width: 274px;
     margin: 20px 20px 25px;
-    overflow: auto;
+    overflow: none;
   }
 
+  } 
+  /* Max Width 980 End code */
+
+/* CODE for media query with MAX WIDTH 768px */
+@media screen and (max-width: 768px){
+
+  /* header */
+  
+  nav {
+    margin: 10px 0px 10px 50px;
+  }
+  
+  /* main */
+  .container {
+    max-width: 768px;
+  }
+  
+  
+  .main-section {
+    float: none;
+    max-width: 580px;
+    margin: 10px 15px 20px;
+  }
   } 
   /* Max Width 768 End code */
 
@@ -357,62 +321,32 @@ input[type=submit] {
 
 /* header */
 #masthead {
-  position: static;
-  width: 100%;
-  margin: auto;
   height: 100px;
 }
 
-#logo {
-  width: 100%;
-  margin: -5px 0 10px;
-}
-
 nav {
-  float: none;
-  text-align: center;
   margin: 0px 0px 10px;
 }
 
-/* main */
-h1 {
-  margin: 0px 0px 15px;
-}
-.container {
-  max-width: 600px;
-}
-
 #logo {
-  width: 640px;
-  margin: 0px 0px 0px -20px;
-}
-
-#main-container {
-  padding-top: 5px;
-  margin: auto;
+  width: 100%;
 }
 
 .auth-image {
-  width: 330px;
-  height: auto;
   margin: 0px 90px 10px 90px;
 }
 
-
 .main-section {
-  float: none;
-  max-width: 600px;
-  padding: 15px;
-  margin-top: 10px;
+  max-width: 540px;
+  margin: 10px 0px 0px 10px;
 }
 
 /* portfolio page */
 .work {
-  /* position: relative; */
   float: none;
   width: 400px;
   margin: 0px 65px 10px 65px;
-  overflow: auto;
+  overflow: none;
 }
 } 
 /* Max Width 640 End code */
