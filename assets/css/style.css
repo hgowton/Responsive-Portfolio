@@ -252,7 +252,7 @@ input[type=submit] {
   nav {
     float: none;
     text-align: center;
-    margin: 10px 0px 10px 30px;
+    margin: 10px 0px -10px 30px;
   }
   
   /* main */
@@ -275,7 +275,7 @@ input[type=submit] {
   }
   
   .main-section {
-    float: none;
+    float: left;
     max-width: 700px;
     padding: 15px;
     margin: 25px 0px 25px 30px;
@@ -297,7 +297,6 @@ input[type=submit] {
 @media screen and (max-width: 768px){
 
   /* header */
-  
   nav {
     margin: 10px 0px 10px 50px;
   }
@@ -309,7 +308,7 @@ input[type=submit] {
   
   
   .main-section {
-    float: none;
+    float: left;
     max-width: 580px;
     margin: 10px 15px 20px;
   }
@@ -338,7 +337,7 @@ nav {
 
 .main-section {
   max-width: 540px;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 0px 10px 10px;
 }
 
 /* portfolio page */
